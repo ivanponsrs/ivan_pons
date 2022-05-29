@@ -595,9 +595,9 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": -180,
+  "yaw": 0,
   "class": "PanoramaCameraPosition",
-  "pitch": 1.47
+  "pitch": 0
  },
  "initialSequence": {
   "class": "PanoramaCameraSequence",
@@ -623,7 +623,7 @@
    }
   ]
  },
- "id": "camera_069687B7_17F7_D81B_4193_AE7AEE7149DA",
+ "id": "camera_071072D1_1714_B817_4189_0DE48D8B658E",
  "automaticZoomSpeed": 10
 },
 {
@@ -925,40 +925,6 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": -102.12,
-  "class": "PanoramaCameraPosition",
-  "pitch": 19.1
- },
- "initialSequence": {
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false,
-  "movements": [
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "cubic_in"
-   },
-   {
-    "yawDelta": 323,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "linear"
-   },
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "cubic_out"
-   }
-  ]
- },
- "id": "camera_0684D7CD_17F7_D80F_41A9_008F42BA4A72",
- "automaticZoomSpeed": 10
-},
-{
- "class": "PanoramaCamera",
- "initialPosition": {
   "yaw": -180,
   "class": "PanoramaCameraPosition",
   "pitch": -5.14
@@ -987,7 +953,7 @@
    }
   ]
  },
- "id": "camera_06C2D775_17F7_D81F_4180_4464D121C206",
+ "id": "camera_09823266_1714_B83D_4198_5A48832FE942",
  "automaticZoomSpeed": 10
 },
 {
@@ -1027,6 +993,40 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
+  "yaw": -180,
+  "class": "PanoramaCameraPosition",
+  "pitch": 1.47
+ },
+ "initialSequence": {
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false,
+  "movements": [
+   {
+    "yawDelta": 18.5,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "cubic_in"
+   },
+   {
+    "yawDelta": 323,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "linear"
+   },
+   {
+    "yawDelta": 18.5,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "cubic_out"
+   }
+  ]
+ },
+ "id": "camera_07289323_1714_B83B_41A7_D24F29B058D9",
+ "automaticZoomSpeed": 10
+},
+{
+ "class": "PanoramaCamera",
+ "initialPosition": {
   "yaw": 0,
   "class": "PanoramaCameraPosition",
   "pitch": 0
@@ -1055,7 +1055,7 @@
    }
   ]
  },
- "id": "panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079_camera",
+ "id": "panorama_017AE611_0AF4_D817_41A5_499A0C6718BF_camera",
  "automaticZoomSpeed": 10
 },
 {
@@ -1362,9 +1362,9 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": 0,
+  "yaw": 125.63,
   "class": "PanoramaCameraPosition",
-  "pitch": 0
+  "pitch": -2.2
  },
  "initialSequence": {
   "class": "PanoramaCameraSequence",
@@ -1390,7 +1390,7 @@
    }
   ]
  },
- "id": "camera_0974A7E5_17F7_D83F_41A1_45AEBC3B68C7",
+ "id": "camera_0672A21B_1714_B80B_41B1_5F290E61357E",
  "automaticZoomSpeed": 10
 },
 {
@@ -1444,9 +1444,9 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": 125.63,
+  "yaw": 0,
   "class": "PanoramaCameraPosition",
-  "pitch": -2.2
+  "pitch": 0
  },
  "initialSequence": {
   "class": "PanoramaCameraSequence",
@@ -1472,7 +1472,7 @@
    }
   ]
  },
- "id": "camera_06D56725_17F7_D83F_41AC_97DCB128C429",
+ "id": "camera_073DC353_1714_B81B_41A5_D013DB546EEB",
  "automaticZoomSpeed": 10
 },
 {
@@ -1831,15 +1831,15 @@
    }
   ]
  },
- "id": "panorama_017AE611_0AF4_D817_41A5_499A0C6718BF_camera",
+ "id": "panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079_camera",
  "automaticZoomSpeed": 10
 },
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": -160.9,
+  "yaw": -102.12,
   "class": "PanoramaCameraPosition",
-  "pitch": -4.41
+  "pitch": 19.1
  },
  "initialSequence": {
   "class": "PanoramaCameraSequence",
@@ -1865,41 +1865,7 @@
    }
   ]
  },
- "id": "camera_06E306F9_17F7_D817_419B_A4BFC8623E48",
- "automaticZoomSpeed": 10
-},
-{
- "class": "PanoramaCamera",
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "initialSequence": {
-  "class": "PanoramaCameraSequence",
-  "restartMovementOnUserInteraction": false,
-  "movements": [
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "cubic_in"
-   },
-   {
-    "yawDelta": 323,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "linear"
-   },
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "easing": "cubic_out"
-   }
-  ]
- },
- "id": "camera_06B6F78C_17F7_D80D_41A5_4A4072994C9E",
+ "id": "camera_0723833D_1714_B80F_41A5_38BE57D9357D",
  "automaticZoomSpeed": 10
 },
 {
@@ -1933,7 +1899,50 @@
    }
   ]
  },
- "id": "camera_06DE3756_17F7_D81D_418F_BA744B465E30",
+ "id": "camera_098D623F_1714_B80C_41AC_57D99D4B56A6",
+ "automaticZoomSpeed": 10
+},
+{
+ "viewerArea": "this.MainViewer",
+ "class": "PanoramaPlayer",
+ "touchControlMode": "drag_rotation",
+ "id": "MainViewerPanoramaPlayer",
+ "gyroscopeVerticalDraggingEnabled": true,
+ "displayPlaybackBar": true,
+ "mouseControlMode": "drag_rotation"
+},
+{
+ "class": "PanoramaCamera",
+ "initialPosition": {
+  "yaw": 109.47,
+  "class": "PanoramaCameraPosition",
+  "pitch": -2.2
+ },
+ "initialSequence": {
+  "class": "PanoramaCameraSequence",
+  "restartMovementOnUserInteraction": false,
+  "movements": [
+   {
+    "yawDelta": 18.5,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "cubic_in"
+   },
+   {
+    "yawDelta": 323,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "linear"
+   },
+   {
+    "yawDelta": 18.5,
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "easing": "cubic_out"
+   }
+  ]
+ },
+ "id": "camera_072CC2FC_1714_B80D_41A7_DA7EF14027C9",
  "automaticZoomSpeed": 10
 },
 {
@@ -2288,15 +2297,6 @@
  }
 },
 {
- "viewerArea": "this.MainViewer",
- "class": "PanoramaPlayer",
- "touchControlMode": "drag_rotation",
- "id": "MainViewerPanoramaPlayer",
- "gyroscopeVerticalDraggingEnabled": true,
- "displayPlaybackBar": true,
- "mouseControlMode": "drag_rotation"
-},
-{
  "items": [
   {
    "media": "this.panorama_06E7909B_0AF4_F80B_4182_CC1002B2DD46",
@@ -2348,9 +2348,9 @@
 {
  "class": "PanoramaCamera",
  "initialPosition": {
-  "yaw": 109.47,
+  "yaw": -160.9,
   "class": "PanoramaCameraPosition",
-  "pitch": -2.2
+  "pitch": -4.41
  },
  "initialSequence": {
   "class": "PanoramaCameraSequence",
@@ -2376,7 +2376,7 @@
    }
   ]
  },
- "id": "camera_06A6C7A1_17F7_D837_4198_C951D3CE61B3",
+ "id": "camera_067BC201_1714_BBF7_41AC_DA9577007F5C",
  "automaticZoomSpeed": 10
 },
 {
@@ -2895,7 +2895,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_01ADCB29_0AF5_4837_41A2_33371B978E70, this.camera_06B6F78C_17F7_D80D_41A5_4A4072994C9E); this.mainPlayList.set('selectedIndex', 3)",
+   "click": "this.startPanoramaWithCamera(this.panorama_01ADCB29_0AF5_4837_41A2_33371B978E70, this.camera_071072D1_1714_B817_4189_0DE48D8B658E); this.mainPlayList.set('selectedIndex', 3)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -2941,7 +2941,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_017AE611_0AF4_D817_41A5_499A0C6718BF, this.camera_06C2D775_17F7_D81F_4180_4464D121C206); this.mainPlayList.set('selectedIndex', 4)",
+   "click": "this.startPanoramaWithCamera(this.panorama_017AE611_0AF4_D817_41A5_499A0C6718BF, this.camera_09823266_1714_B83D_4198_5A48832FE942); this.mainPlayList.set('selectedIndex', 4)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3033,7 +3033,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_01A827A2_0AF5_7835_4184_B0A1B168D8A8, this.camera_06DE3756_17F7_D81D_418F_BA744B465E30); this.mainPlayList.set('selectedIndex', 1)",
+   "click": "this.startPanoramaWithCamera(this.panorama_01A827A2_0AF5_7835_4184_B0A1B168D8A8, this.camera_098D623F_1714_B80C_41AC_57D99D4B56A6); this.mainPlayList.set('selectedIndex', 1)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3125,7 +3125,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_01A827A2_0AF5_7835_4184_B0A1B168D8A8, this.camera_06A6C7A1_17F7_D837_4198_C951D3CE61B3); this.mainPlayList.set('selectedIndex', 1)",
+   "click": "this.startPanoramaWithCamera(this.panorama_01A827A2_0AF5_7835_4184_B0A1B168D8A8, this.camera_072CC2FC_1714_B80D_41A7_DA7EF14027C9); this.mainPlayList.set('selectedIndex', 1)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3171,7 +3171,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079, this.camera_0974A7E5_17F7_D83F_41A1_45AEBC3B68C7); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079, this.camera_073DC353_1714_B81B_41A5_D013DB546EEB); this.mainPlayList.set('selectedIndex', 2)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3217,7 +3217,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_06E7909B_0AF4_F80B_4182_CC1002B2DD46, this.camera_069687B7_17F7_D81B_4193_AE7AEE7149DA); this.mainPlayList.set('selectedIndex', 0)",
+   "click": "this.startPanoramaWithCamera(this.panorama_06E7909B_0AF4_F80B_4182_CC1002B2DD46, this.camera_07289323_1714_B83B_41A7_D24F29B058D9); this.mainPlayList.set('selectedIndex', 0)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3263,7 +3263,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_017AE611_0AF4_D817_41A5_499A0C6718BF, this.camera_0684D7CD_17F7_D80F_41A9_008F42BA4A72); this.mainPlayList.set('selectedIndex', 4)",
+   "click": "this.startPanoramaWithCamera(this.panorama_017AE611_0AF4_D817_41A5_499A0C6718BF, this.camera_0723833D_1714_B80F_41A5_38BE57D9357D); this.mainPlayList.set('selectedIndex', 4)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3355,7 +3355,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079, this.camera_06D56725_17F7_D83F_41AC_97DCB128C429); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_0166C12A_0AF5_F835_41A4_3742D7FB3079, this.camera_0672A21B_1714_B80B_41B1_5F290E61357E); this.mainPlayList.set('selectedIndex', 2)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -3401,7 +3401,7 @@
  "enabledInCardboard": true,
  "areas": [
   {
-   "click": "this.startPanoramaWithCamera(this.panorama_01AC22C2_0AF7_587A_41A4_22B865EC4863, this.camera_06E306F9_17F7_D817_419B_A4BFC8623E48); this.mainPlayList.set('selectedIndex', 5)",
+   "click": "this.startPanoramaWithCamera(this.panorama_01AC22C2_0AF7_587A_41A4_22B865EC4863, this.camera_067BC201_1714_BBF7_41AC_DA9577007F5C); this.mainPlayList.set('selectedIndex', 5)",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -4223,6 +4223,7 @@
   "this.Container_7DBC9382_7065_343F_41CC_ED357655BB95",
   "this.Button_7DBC8382_7065_343F_4183_17B44518DB40",
   "this.Container_7DBCB382_7065_343F_41D8_AB382D384291",
+  "this.Button_06F92BCF_171C_C80B_419F_7866D5D39AFE",
   "this.Container_7DBCD382_7065_343F_41D8_FC14DFF91DA9"
  ],
  "id": "Container_7DB3F373_7065_34CE_41B4_E77DDA40A4F3",
@@ -5119,11 +5120,11 @@
  "backgroundOpacity": 0,
  "gap": 23,
  "paddingTop": 0,
- "label": "Onde tem Ivan Pons",
+ "label": "Chame no Whatsapp",
  "paddingLeft": 10,
  "shadow": false,
  "borderRadius": 0,
- "click": "this.openLink('https://www.ivanpons.com/lojas/', '_blank')",
+ "click": "this.openLink('http://wa.me/5553992135088', '_blank')",
  "iconBeforeLabel": true,
  "paddingBottom": 0,
  "fontStyle": "italic",
@@ -5218,11 +5219,11 @@
  "backgroundOpacity": 0,
  "gap": 5,
  "paddingTop": 0,
- "label": "Seja dono de uma IP",
+ "label": "Siga no Instagram",
  "paddingLeft": 10,
  "shadow": false,
  "borderRadius": 0,
- "click": "this.openLink('https://www.ivanpons.com/franquias/', '_blank')",
+ "click": "this.openLink('https://www.instagram.com/ivanponspelotas/?igshid=YmMyMTA2M2Y=', '_blank')",
  "iconBeforeLabel": true,
  "paddingBottom": 0,
  "fontStyle": "italic",
@@ -5316,11 +5317,11 @@
  "backgroundOpacity": 0,
  "gap": 5,
  "paddingTop": 0,
- "label": "Venda IP na sua loja",
+ "label": "Localiza\u00e7\u00e3o da Loja",
  "paddingLeft": 10,
  "shadow": false,
  "borderRadius": 0,
- "click": "this.openLink('https://ivanpons.com/multimarcas/', '_blank')",
+ "click": "this.openLink('https://goo.gl/maps/Dw3PG5g5tSJE8Ghj6', '_blank')",
  "iconBeforeLabel": true,
  "paddingBottom": 0,
  "fontStyle": "italic",
@@ -5414,11 +5415,11 @@
  "backgroundOpacity": 0,
  "gap": 5,
  "paddingTop": 0,
- "label": "Siga no Instagram",
+ "label": "Nossas outras Lojas",
  "paddingLeft": 10,
  "shadow": false,
  "borderRadius": 0,
- "click": "this.openLink('https://www.instagram.com/ivanponsoficial/', '_blank')",
+ "click": "this.openLink('https://ivanpons.com/lojas/', '_blank')",
  "iconBeforeLabel": true,
  "paddingBottom": 0,
  "fontStyle": "italic",
@@ -5471,6 +5472,64 @@
   0,
   1
  ]
+},
+{
+ "textDecoration": "none",
+ "backgroundColorRatios": [
+  0,
+  1
+ ],
+ "class": "Button",
+ "data": {
+  "name": "Button Photoalbum"
+ },
+ "backgroundColor": [
+  "#000000",
+  "#000000"
+ ],
+ "id": "Button_06F92BCF_171C_C80B_419F_7866D5D39AFE",
+ "layout": "horizontal",
+ "backgroundColorDirection": "vertical",
+ "shadowColor": "#000000",
+ "fontFamily": "Oswald",
+ "minHeight": 1,
+ "shadowSpread": 1,
+ "fontColor": "#FFFFFF",
+ "borderSize": 0,
+ "width": "100%",
+ "iconHeight": 32,
+ "horizontalAlign": "left",
+ "minWidth": 1,
+ "verticalAlign": "middle",
+ "borderColor": "#000000",
+ "shadowBlurRadius": 6,
+ "paddingRight": 0,
+ "rollOverBackgroundColor": [
+  "#5CA1DE"
+ ],
+ "mode": "push",
+ "fontSize": "30px",
+ "rollOverBackgroundOpacity": 0.8,
+ "backgroundOpacity": 0,
+ "gap": 5,
+ "paddingTop": 0,
+ "label": "Instagram Ivan Pons",
+ "paddingLeft": 10,
+ "shadow": false,
+ "borderRadius": 0,
+ "click": "this.openLink('https://www.instagram.com/ivanponsoficial/', '_blank')",
+ "iconBeforeLabel": true,
+ "paddingBottom": 0,
+ "fontStyle": "italic",
+ "iconWidth": 32,
+ "height": 50,
+ "propagateClick": true,
+ "rollOverBackgroundColorRatios": [
+  0
+ ],
+ "fontWeight": "normal",
+ "cursor": "hand",
+ "pressedBackgroundOpacity": 1
 },
 {
  "scrollBarWidth": 10,
